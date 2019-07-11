@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title> Inscription </title>
+</head>
+<body style="background-color: aqua">
+<fieldset > <legend>INSCRIPTION </legend>
+    <form method="get" action="GestionEtudiant.php" >
+
+        <table align="center" >
+            <tr><td>Nom: </td> <td> <input type="text" name="nom" required placeholder="Nom"/>  </td></tr>
+            <tr><td>Prenom: </td> <td><input type="text" name="prenom" required placeholder="Prenom"/></td> </tr>
+            <tr> <td> Age : </td> <td> <input type="number" name="age" required placeholder="Age"/> </td>  </tr>
+            <tr> <td>Module:</td> <td> <input type="text" name="module" required placeholder="Module"/>  </td></tr>
+            <tr> <td> <input type="submit" value="Ajouter"  name="ajout"/></td></tr>
+
+        </table>
+    </form>
+</fieldset>
+<form method="get" action="GestionEtudiant.php" style="position:fixed;
+   top:50%;
+   left:50%;
+   width:250px;">
+    <tr> <td> <input type="submit" value="Afficher"  name="affiche"/></td></tr>
+
+</form>
+</body>
+</html>
